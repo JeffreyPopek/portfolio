@@ -1,9 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: "standalone", // Ensures proper deployment on Vercel
   images: {
-    unoptimized: true, // Fixes image loading issues
+    unoptimized: true, // Disable image optimization (remove if not needed)
   },
 };
 
