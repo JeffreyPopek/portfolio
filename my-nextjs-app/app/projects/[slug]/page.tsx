@@ -10,12 +10,6 @@ import { projects } from "../project-data"
 import type { ProjectId } from "../project-data"
 import { use } from "react" // Import use
 
-{
-  "rewrites": [
-    { "source": "/projects/:slug", "destination": "/projects/[slug]" }
-  ]
-}
-
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   // Unwrap the params with React.use()
   const { slug } = use(params)
