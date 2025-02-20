@@ -18,16 +18,16 @@ export default function NavigationDropdown() {
       <div className="absolute left-0 hidden group-hover:block pt-2">
         <div className="bg-[#571661] rounded-md border border-white/20 shadow-md p-2 min-w-[8rem]">
           <Link href="/projects/project1" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
-            VR Escape Room
+            Poly-Vinyl Pests!
           </Link>
           <Link href="/projects/project2" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
-            Mobile Puzzle Game
+            Liminal Detective
           </Link>
           <Link href="/projects/project3" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
-            3D Platformer
+            Suzume Portals
           </Link>
           <Link href="/projects/project4" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
-            Game Engine Project
+            Holly Jolly Engine
           </Link>
         </div>
       </div>

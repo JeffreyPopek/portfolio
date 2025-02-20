@@ -48,7 +48,7 @@ export function NavigationMenu() {
           About
         </Link>
         <Button asChild variant="ghost" size="lg">
-          <Link href="/path-to-your-resume.pdf" download className="flex items-center gap-2">
+          <Link href="/assets/JeffreyPopek_Resume.pdf" target = "_blank" className="flex items-center gap-2">
             <FileDown className="h-5 w-5" />
             Resume
           </Link>

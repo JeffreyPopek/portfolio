@@ -1,16 +1,16 @@
 export const projects = {
   project1: {
-    title: "VR Escape Room",
-    headerImage: "/project1-header.jpg",
+    title: "Poly-Vinyl Pests!",
+    headerImage: "/assets/pvp/pvpSplashArt.png",
     description:
-      "An immersive VR escape room experience that challenges players to solve puzzles using virtual reality interactions.",
+      "Fight deadly bosses and your friend in this competitive multiplayer twinstick shooter",
     role: "Lead Programmer",
-    teamSize: "Team of 4",
-    duration: "3 months",
-    engine: "Unreal Engine 5",
+    teamSize: "Team of 15",
+    duration: "24 Weeks",
+    engine: "Unity",
     section1: {
       title: "Development Process",
-      content: "Detailed explanation of the VR implementation, puzzle design, and interaction systems.",
+      content: "Detailed explanation of the implementation.",
       image: "/project1-process.jpg",
     },
     section2: {

@@ -7,6 +7,7 @@ import { Users, Clock, Wrench, ArrowRight } from "lucide-react"
 interface ProjectCardProps {
   project: {
     title: string
+    role: string
     description: string
     teamSize: string
     duration: string
@@ -55,7 +56,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{project.title}</h3>
-            <p className="text-sm text-muted-foreground">Gameplay Programmer</p>
+            <p className="text-sm text-muted-foreground">{project.role}</p>
           </div>
           <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
         </div>
