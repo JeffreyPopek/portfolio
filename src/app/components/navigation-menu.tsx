@@ -3,8 +3,8 @@
 import { useEffect } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { FileDown, ChevronDown } from "lucide-react"
+import {Button} from "../../components/ui/button";
 
 export function NavigationMenu() {
   const pathname = usePathname()
@@ -35,7 +35,7 @@ export function NavigationMenu() {
           </Button>
           <div className="absolute left-0 hidden group-hover:block pt-2">
             <div className="bg-popover rounded-md border shadow-md p-2 min-w-[8rem]">
-              <Link href="/projects/pvp!" className="block px-2 py-1.5 text-sm hover:text-primary">
+              <Link href="/projects/pvp" className="block px-2 py-1.5 text-sm hover:text-primary">
                 Project 1
               </Link>
               <Link href="/projects/project2" className="block px-2 py-1.5 text-sm hover:text-primary">

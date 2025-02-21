@@ -1,9 +1,9 @@
 import type React from "react"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import NavigationDropdown from "./components/navigation-dropdown"
 import { FileDown } from "lucide-react"
 import "./globals.css"
+import {Button} from "../components/ui/button";
 
 export default function RootLayout({
   children,

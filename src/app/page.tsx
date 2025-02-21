@@ -1,8 +1,8 @@
-import ProjectCard from "@/app/components/project-card"
-import YouTubeEmbed from "@/app/components/youtube-embed"
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Mail, Linkedin, FileDown } from "lucide-react"
+import YouTubeEmbed from "./components/youtube-embed";
+import ProjectCard from "./components/project-card";
+import {Button} from "../components/ui/button";
 
 const projects = [
   {
