@@ -17,7 +17,7 @@ export default function NavigationDropdown() {
       </Button>
       <div className="absolute left-0 hidden group-hover:block pt-2">
         <div className="bg-[#571661] rounded-md border border-white/20 shadow-md p-2 min-w-[8rem]">
-          <Link href="/projects/pvp!" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
+          <Link href="/projects/pvp" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
             Poly-Vinyl Pests!
           </Link>
           <Link href="/projects/liminalDetective" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">

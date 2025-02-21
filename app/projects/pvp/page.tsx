@@ -2,8 +2,6 @@
 
 import { useEffect } from "react"
 import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Users, User, Clock, Wrench } from "lucide-react"
 
 export default function VRProjectPage() {
@@ -44,7 +42,7 @@ export default function VRProjectPage() {
       className="absolute inset-0 w-full h-full"
       src="https://www.youtube.com/embed/TUbv2xJPxQ0?si=DLh8s90lsOJdAFF9"
       title="YouTube video player"
-      border="0"
+
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
@@ -185,7 +183,7 @@ There was definitely some getting used to working with the animator, but after a
       className="absolute inset-0 w-full h-full"
       src="https://www.youtube.com/embed/I4PmqUP8gng?si=0z8BXeq5j2UuVHyF"
       title="YouTube video player"
-      border="0"
+
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
@@ -203,7 +201,7 @@ There was definitely some getting used to working with the animator, but after a
       className="absolute inset-0 w-full h-full"
       src="https://www.youtube.com/embed/F6QIURMGgGY?si=TtANRZmCVvS84W76"
       title="YouTube video player"
-      border="0"
+
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerPolicy="strict-origin-when-cross-origin"
       allowFullScreen
