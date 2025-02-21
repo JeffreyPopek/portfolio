@@ -217,6 +217,78 @@ There was definitely some getting used to working with the animator, but after a
 
 
 
+{ /* Space between sections */ }
+
+<div className="py-10"> {/* This ensures space is added */}
+<section className="text-center mt-10 text-xl"> 
+  <h2 className="text-2xl font-semibold mb-4">Boss Challenges</h2>
+  <p className="mb-6">
+  When designing our first boss we had a lot of time left in the semester to work, but when we wanted to add a second one that was when we had to start really thinking about how much time we had left. The way we designed the second boss made use of existing systems to create a unique boss fight without the creation of new massive systems to save time and energy. We made sure to reuse the bullet hell system and designed the second boss to require little to no animations but still feel alive. Our final product was the bottle mushrooms, a hivemind boss that would spawn mushroom enemies that did not move around the arena. This design took care of most of the risks involving implementing a second boss in such a short amount of time.
+  </p>
+</section>
+</div>
+
+
+{ /* Space between sections */ }
+
+<div className="py-10"> {/* This ensures space is added */}
+<section className="text-center mt-10 text-xl"> 
+  <h2 className="text-2xl font-semibold mb-4">Score System</h2>
+  <p className="mb-6">
+  To determine which player is the Poly-Vinyl Best at the end of the game we needed to keep some kind of score. Our team decided on an arcade style of score which would increase whenever a player hit a boss or another player. Players cannot shoot their “teammate” during boss fights, but can during the pvp sections of the game. The score is always displayed on the screen and a final score will be shown at the end of the game. Players will also lose score when they die during a boss fight. If you win a pvp combat round then you will be awarded with a large amount of points. We did this to prevent one player that got ahead in the PvE round running away with the game.
+  </p>
+  <div className="w-full flex justify-center mb-6"> 
+<Image 
+  src="/assets/pvp/pvpScoreboard.PNG" 
+  alt="VR Escape Room" 
+  width={800}  // Adjust width as needed
+  height={600} // Adjust height as needed
+  className="rounded-lg"
+/>
+</div>
+</section>
+</div>
+
+
+{ /* Space between sections */ }
+
+<div className="py-10"> {/* This ensures space is added */}
+<section className="text-center mt-10 text-xl"> 
+  <h2 className="text-2xl font-semibold mb-4">Pvp</h2>
+  <p className="mb-6">
+  The other part of Poly-Vinyl Pests is the pvp combat. To make this combat feel more interesting, our team designed and implemented two different arenas with separate environmental mechanics to make combat more dynamic. I implemented both of these arenas with the help of our designers and artists to make sure we stayed on theme.
+  </p>
+
+  <p className="mb-6">
+  The first arena was the pvp combat after the laundry snail. To help us make the art scope smaller we used the same environmental assets as the laundry snail’s arena with a few new props added in for the arena’s mechanic. The mechanic of this stage is the sludge that spawns in the four corners and will slowly encroach until the arena is almost completely covered. Walking into this sludge will deal damage to the players and forces the players to get closer to each other. Another mechanic is the red solo cups that players can dash through.
+  </p>
+  <div className="w-full flex justify-center mb-6"> 
+<Image 
+  src="/assets/pvp/pvpDrainGangFight.gif" 
+  alt="VR Escape Room" 
+  width={800}  // Adjust width as needed
+  height={600} // Adjust height as needed
+  className="rounded-lg"
+/>
+</div>
+
+<p className="mb-6">
+The second arena is after the bottle mushroom fight. Using the same tactic in reusing the boss’s arena assets, we were able to quickly create an arena for the players to fight in. The mechanic of this arena is the destructible trash bags that are scattered throughout the arena. The players can shoot them to destroy them after a varying amount of damage.
+  </p>
+
+  <div className="w-full flex justify-center mb-6"> 
+<Image 
+  src="/assets/pvp/pvpgarbageGrotto.gif" 
+  alt="VR Escape Room" 
+  width={800}  // Adjust width as needed
+  height={600} // Adjust height as needed
+  className="rounded-lg"
+/>
+</div>
+</section>
+</div>
+
+
 
     </article>
   )
