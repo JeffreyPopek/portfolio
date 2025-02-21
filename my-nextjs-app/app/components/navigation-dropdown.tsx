@@ -20,7 +20,7 @@ export default function NavigationDropdown() {
           <Link href="/projects/pvp!" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
             Poly-Vinyl Pests!
           </Link>
-          <Link href="/projects/project2" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
+          <Link href="/projects/liminalDetective" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">
             Liminal Detective
           </Link>
           <Link href="/projects/project3" className="block px-2 py-1.5 text-sm text-white hover:text-white/80">

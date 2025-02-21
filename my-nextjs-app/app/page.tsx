@@ -15,7 +15,7 @@ const projects = [
     tech: "Unity",
     titleImage: "/assets/pvp/pvpSplashArt.png",
     hoverImage: "/assets/pvp/pvpGameplay.gif",
-    slug: "project1",
+    slug: "pvp!",
   },
   {
     title: "Liminal Detective",
